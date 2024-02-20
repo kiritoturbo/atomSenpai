@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #29a6dd;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="レイヤー_4" data-name="レイヤー 4">
+    <path class="cls-1" d="M37.3,17.3a44.58,44.58,0,0,0-8.29,2.25c-5.224,2.2-6.748,5.738-8.51,14.55C18.034,21.766,16.034,19.766,3.7,17.3,16.034,14.834,18.034,12.834,20.5.5,22.966,12.834,24.966,14.834,37.3,17.3Z"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ffffff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="レイヤー_4" data-name="レイヤー 4">
+    <g>
+      <g>
+        <path class="cls-1" d="M28.249,14.238l0-9.912a.821.821,0,0,0-.82-.821l-13.847,0a.82.82,0,0,0-.821.82l0,9.912a.82.82,0,0,1-.821.82l-10.61,0a.821.821,0,0,0-.821.82L.5,38.285a.82.82,0,0,0,.82.821l38.35.015a.82.82,0,0,0,.821-.82L40.5,15.884a.821.821,0,0,0-.82-.821l-10.61,0A.821.821,0,0,1,28.249,14.238Z"/>
+        <rect class="cls-1" x="4.935" y="21.15" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="13.377" y="21.154" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="21.818" y="21.157" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="30.259" y="21.16" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="4.932" y="29.17" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="13.373" y="29.173" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="21.815" y="29.176" width="5.487" height="4.115" rx="0.498"/>
+        <rect class="cls-1" x="30.256" y="29.18" width="5.487" height="4.115" rx="0.498"/>
+      </g>
+      <rect class="cls-1" x="17.101" y="10.733" width="6.812" height="0.511"/>
+      <rect class="cls-1" x="17.101" y="10.733" width="6.812" height="0.511" transform="translate(31.495 -9.518) rotate(90)"/>
+    </g>
+  </g>
+</svg>

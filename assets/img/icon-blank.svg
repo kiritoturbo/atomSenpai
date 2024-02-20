@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.126 59.126">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="レイヤー_4" data-name="レイヤー 4">
+    <circle class="cls-1" cx="29.563" cy="29.563" r="29.063"/>
+    <g>
+      <rect class="cls-2" x="17.126" y="24.337" width="17.692" height="14.404" rx="5"/>
+      <rect class="cls-2" x="24.434" y="19.385" width="17.692" height="14.404" rx="5"/>
+    </g>
+  </g>
+</svg>

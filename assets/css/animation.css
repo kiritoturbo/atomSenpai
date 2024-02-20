@@ -1,0 +1,824 @@
+@charset "UTF-8";
+html.pageLarge {
+    font-size: 70%;
+}
+
+html.pageLarge header {
+    font-size: 62.5%;
+}
+
+
+/*YELLOW*/
+
+html.pageYellow body {
+    color: black !important;
+    background-color: #F4E621 !important;
+}
+html.pageYellow body * {
+    border-color: black !important;
+}
+html.pageYellow .multi-background-color{
+    background-color: #F4E621 !important;
+}
+html.pageBlue .multi-background-color{
+    background-color: #0071b4 !important;
+}
+html.pageBlack .multi-background-color{
+    background-color: #000000 !important;
+}
+html:is(.pageBlue, .pageBlack, .pageYellow) .multi-background-color{
+    background-image: none !important;
+    opacity: 1;
+}   
+html:is(.pageBlue, .pageBlack, .pageYellow) .multicolor-border{
+    border: 1px solid;
+}
+html:is(.pageBlue, .pageBlack, .pageYellow) .list-color-choose span:last-child{
+    color: #ffffff!important;
+}
+
+html.pageYellow *[class*="color"],
+html.pageYellow .color-white,
+html.pageYellow .color-black,
+html.pageYellow a.btn,
+html.pageYellow .goannai-2 .title,
+html.pageYellow .date-news,
+html.pageYellow .page-title,
+html.pageYellow .page-breadcrumb,
+html.pageYellow .page-breadcrumb a:not(:first-child),
+html.pageYellow .title-page,
+html.pageYellow a,
+html.pageYellow .single-page,
+html.pageYellow .single-page h2,
+html.pageYellow .single-page h3,
+html.pageYellow .single-page h4,
+html.pageYellow .single-page h5,
+html.pageYellow .single-page h6,
+html.pageYellow .single-page .news-list .date,
+html.pageYellow .header-main .content-right .list-item-change,
+html.pageYellow .top-title-wrap,
+html.pageYellow .breadcrums ul li,
+html.pageYellow .list-about-left,
+html.pageYellow .main-title,
+html.pageYellow .contactForm select,
+html.pageYellow .contactForm .case,
+html.pageYellow .page-header-top-title,
+html.pageYellow .noti-dayoff,
+html.pageYellow .box-home-social,
+html.pageYellow .title-main,
+html.pageYellow a.menu-btn::after{
+    color: black !important;
+}
+
+html.pageYellow *[class*="bgcl"],
+html.pageYellow .bgcl-white,
+html.pageYellow .bgcl-black,
+html.pageYellow #home-important .home-important::before,
+html.pageYellow .page-title,
+html.pageYellow .main-menu .nav-main,
+html.pageYellow .breadcrums,
+html.pageYellow .a.btn.btn-link-pc,
+html.pageYellow .page-title.menu-border-color-1,
+html.pageYellow .mega-menu-course,
+html.pageYellow .pagemenu-item a.active,
+html.pageYellow .pagemenu-item a:hover,
+html.pageYellow .slide-home-content,
+html.pageYellow .bg-title-select,
+html.pageYellow .wp-pagenavi a.page,
+html.pageYellow .box-about-our-hospital-v1 .box-about-our-hospital-v1-text,
+html.pageYellow footer,
+html.pageYellow .box-blog .box-text,
+html.pageYellow .box-blog .cat-wrap,
+html.pageYellow .box-blog .box-image .cate-link,
+html.pageYellow .box-social,
+html.pageYellow .box-about-our-hospital a,
+html.pageYellow .overlay,
+html.pageYellow .btn-more-imp,
+html.pageYellow .header-main .content-right .list-item-change,
+html.pageYellow .top-title-wrap,
+html.pageYellow .header-main,
+html.pageYellow .footer-copyright,
+html.pageYellow .main-title .main-title-left,
+html.pageYellow .box-home-social,
+html.pageYellow .noti-dayoff,
+html.pageYellow #main-slider ul.slick-dots li.slick-active,
+html.pageYellow a.menu-btn{
+    background-color: #F4E621 !important;
+    background-image: none !important;
+    opacity: 1;
+}
+
+html.pageYellow a:hover {
+    opacity: 0.6 !important;
+    text-decoration: underline;
+}
+html.pageYellow .menu-pc-cont{
+    background-color: #F4E621 !important;
+}
+html.pageYellow .header-main .main-menu .nav>li>a:before {
+    filter: brightness(0);
+}
+html.pageYellow a.menu-btn span{
+    background-color: #000000!important;
+}
+
+/*BLACK*/
+
+html.pageBlack body {
+    color: white !important;
+    background-color: black !important;
+}
+
+html.pageBlack body * {
+    border-color: white !important;
+}
+
+html.pageBlack *[class*="color"],
+html.pageBlack .color-white,
+html.pageBlack .color-black,
+html.pageBlack a.btn,
+html.pageBlack .goannai-2 .title,
+html.pageBlack .date-news,
+html.pageBlack .page-title,
+html.pageBlack .page-breadcrumb,
+html.pageBlack .page-breadcrumb a:not(:first-child),
+html.pageBlack .title-page,
+html.pageBlack a,
+html.pageBlack .single-page,
+html.pageBlack .single-page h2,
+html.pageBlack .single-page h3,
+html.pageBlack .single-page h4,
+html.pageBlack .single-page h5,
+html.pageBlack .single-page h6,
+html.pageBlack .single-page .news-list .date,
+html.pageBlack .header-main .content-right .list-item-change,
+html.pageBlack .top-title-wrap,
+html.pageBlack .breadcrums ul li,
+html.pageBlack .list-about-left,
+html.pageBlack .main-title,
+html.pageBlack .contactForm select,
+html.pageBlack .contactForm .case,
+html.pageBlack .page-header-top-title,
+html.pageBlack .noti-dayoff,
+html.pageBlack .box-home-social,
+html.pageBlack .title-main {
+    color: white !important;
+}
+
+html.pageBlack *[class*="bgcl"],
+html.pageBlack .bgcl-white,
+html.pageBlack .bgcl-black,
+html.pageBlack #home-important .home-important::before,
+html.pageBlack .page-title,
+html.pageBlack .main-menu .nav-main,
+html.pageBlack .breadcrums,
+html.pageBlack .a.btn.btn-link-pc,
+html.pageBlack .page-title.menu-border-color-1,
+html.pageBlack .mega-menu-course,
+html.pageBlack .pagemenu-item a.active,
+html.pageBlack .pagemenu-item a:hover,
+html.pageBlack .slide-home-content,
+html.pageBlack .bg-title-select,
+html.pageBlack .wp-pagenavi a.page,
+html.pageBlack footer,
+html.pageBlack .box-blog .box-text,
+html.pageBlack .box-blog .cat-wrap,
+html.pageBlack .box-blog .box-image .cate-link,
+html.pageBlack .overlay,
+html.pageBlack .btn-more-imp,
+html.pageBlack .header-main .content-right .list-item-change,
+html.pageBlack .top-title-wrap,
+html.pageBlack .footer-copyright,
+html.pageBlack .box-phone-footer,
+html.pageBlack .header-main,
+html.pageBlack .main-title .main-title-left,
+html.pageBlack .box-home-social,
+html.pageBlack .noti-dayoff,
+html.pageBlack #main-slider ul.slick-dots li.slick-active,
+html.pageBlack a.menu-btn{
+    background-color: black !important;
+    background-image: none !important;
+    opacity: 1;
+}
+html.pageBlack .menu-pc-cont{
+    background-color: black !important; 
+}
+html.pageBlack a:hover {
+    opacity: 0.6 !important;
+    text-decoration: underline;
+}
+
+/*BLUE*/
+
+html.pageBlue body {
+    color: white !important;
+    background-color: #0071b4 !important;
+}
+
+html.pageBlue body * {
+    border-color: white !important;
+}
+
+html.pageBlue *[class*="color"],
+html.pageBlue .color-white,
+html.pageBlue .color-black,
+html.pageBlue a.btn,
+html.pageBlue .goannai-2 .title,
+html.pageBlue .date-news,
+html.pageBlue .page-title,
+html.pageBlue .page-breadcrumb,
+html.pageBlue .page-breadcrumb a:not(:first-child),
+html.pageBlue .title-page,
+html.pageBlue a,
+html.pageBlue .single-page,
+html.pageBlue .single-page h2,
+html.pageBlue .single-page h3,
+html.pageBlue .single-page h4,
+html.pageBlue .single-page h5,
+html.pageBlue .single-page h6,
+html.pageBlue .single-page .news-list .date,
+html.pageBlue .header-main .content-right .list-item-change,
+html.pageBlue .top-title-wrap,
+html.pageBlue .breadcrums ul li,
+html.pageBlue .list-about-left,
+html.pageBlue .main-title,
+html.pageBlue .contactForm select,
+html.pageBlue .contactForm .case,
+html.pageBlue .page-header-top-title,
+html.pageBlue .noti-dayoff,
+html.pageBlue .title-main {
+    color: white !important;
+}
+
+html.pageBlue *[class*="bgcl"],
+html.pageBlue .bgcl-white,
+html.pageBlue .bgcl-black,
+html.pageBlue #home-important .home-important::before,
+html.pageBlue .page-title,
+html.pageBlue .main-menu .nav-main,
+html.pageBlue .breadcrums,
+html.pageBlue .a.btn.btn-link-pc,
+html.pageBlue .page-title.menu-border-color-1,
+html.pageBlue .mega-menu-course,
+html.pageBlue .pagemenu-item a.active,
+html.pageBlue .pagemenu-item a:hover,
+html.pageBlue .slide-home-content,
+html.pageBlue .bg-title-select,
+html.pageBlue .wp-pagenavi a.page,
+html.pageBlue footer,
+html.pageBlue .box-blog .box-text,
+html.pageBlue .box-blog .cat-wrap,
+html.pageBlue .box-blog .box-image .cate-link,
+html.pageBlue .box-social,
+html.pageBlue .overlay,
+html.pageBlue .btn-more-imp,
+html.pageBlue .header-main .content-right .list-item-change,
+html.pageBlue .top-title-wrap,
+html.pageBlue .box-phone-footer,
+html.pageBlue .header-main,
+html.pageBlue .footer-copyright,
+html.pageBlue .main-title .main-title-left,
+html.pageBlue .box-home-social,
+html.pageBlue .noti-dayoff {
+    background-color: #0071b4 !important;
+    background-image: none !important;
+    opacity: 1;
+}
+html.pageBlue .menu-pc-cont{
+    background-color: #0071b4 !important;
+}
+html.pageBlue a.btn{
+    background-color: #0071b4 !important;
+    opacity: 1;
+}
+
+html.pageBlue a:hover {
+    opacity: 0.6 !important;
+    text-decoration: underline;
+}
+
+
+html.pageBlack .overlay,
+html.pageBlue .overlay,
+html.pageYellow .overlay {
+    opacity: 1;
+}
+
+
+/*old site*/
+
+.commonTemplate>*:first-child {
+    margin-top: 0;
+}
+
+.commonTemplate.mb00 {
+    margin-bottom: 0
+}
+
+.commonTemplate iframe {
+    width: 100% !important;
+    height: 380px !important
+}
+
+.commonTemplate .common_list_head {
+    position: relative
+}
+
+.commonTemplate .common_list_head .common_list_link {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+.commonTemplate .common_list_head .common_list_link a {
+    color: #3c3a39
+}
+
+.commonTemplate .fBold {
+    font-weight: 700
+}
+
+.commonTemplate strong {
+    font-weight: 700
+}
+
+.commonTemplate em {
+    font-style: italic
+}
+
+.commonTemplate blockquote {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px
+}
+
+.commonTemplate .aligncenter {
+    display: block;
+    margin: 0 auto
+}
+
+.commonTemplate .alignright {
+    float: right;
+    margin: 0 0 30px 30px
+}
+
+.commonTemplate .alignleft {
+    float: left;
+    margin: 0 30px 30px 0
+}
+
+.commonTemplate img[class*=wp-image-],
+.commonTemplate img[class*=attachment-] {
+    height: auto;
+    max-width: 100%;
+    border: 1px solid #9d9d9d
+}
+
+.single-data_iroha .commonTemplate img[class*=wp-image-],
+.single-data_iroha .commonTemplate img[class*=attachment-] {
+    border: none;
+}
+
+.commonTemplate ul {
+    margin-bottom: 50px;
+}
+
+.commonTemplate ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.commonTemplate ul li:before {
+    background-color: #0C0B3B;
+    width: 17px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    content: '';
+    border-radius: 50px;
+}
+
+.commonTemplate .wp-block-lazyblock-ehi-or-list-link ul li:before {
+    display: none;
+}
+
+.backnumber-item .image-box {
+    height: 245px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #707070;
+    margin-right: 35px;
+}
+
+.cirle-item .ccContainerItem_comment,
+.wp-pagenavi .previouspostslink,
+.wp-pagenavi .nextpostslink {
+    color: #0897FF;
+    text-decoration: underline;
+}
+
+.cirle-item:hover .ccContainerItem_comment,
+.wp-pagenavi .previouspostslink:hover,
+.wp-pagenavi .nextpostslink:hover {
+    text-decoration: none;
+}
+
+.single-page .wp-block-lazyblock-accordion .toggle-hd>img {
+    margin-right: 60px;
+}
+
+@media(max-width:1480px) {
+    .single-page .wp-block-lazyblock-accordion .toggle-hd>img {
+        margin-right: 10px;
+    }
+    .backnumber-item .image-box {
+        margin-right: 0;
+    }
+}
+
+@media(max-width:1060px) {
+    .single-page .wp-block-lazyblock-accordion .toggle-hd>img {
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:768px) {
+    #banner {
+        min-height: 613px;
+    }
+}
+
+@media(max-width:767px) {
+    .single-page .wp-block-lazyblock-accordion .toggle-hd {
+        display: flex;
+        align-items: center;
+    }
+    .backnumber-item .image-box {
+        max-width: 170px;
+        margin: auto;
+    }
+    html body .class-item-inner .image-box {
+        height: 150px;
+    }
+    .class-item-inner {
+        border-bottom: 1px solid #707070;
+        padding-bottom: 20px;
+    }
+    .commonTemplate .alignright {
+        float: none;
+        margin: 0 0px 30px!important;
+        width: auto;
+    }
+    .commonTemplate .alignleft {
+        float: none;
+        margin: 0 0px 30px!important;
+        width: auto;
+    }
+    html body .wp-block-embed iframe {
+        height: 180px;
+    }
+}
+
+html.pageYellow .header-nav-main a {
+    color: white !important;
+}
+
+html.pageBlack a.btn.btn-more.btn-shadow span,
+html.pageBlack .box-social .bl-bigger {
+    color: #000 !important;
+}
+
+.thanks,
+.comment-guide-text {
+    color: #000 !important;
+}
+
+a.btn.btn-more.btn-shadow {
+    color: #000 !important;
+}
+
+html.pageBlack .bl-hover .title a,
+html.pageBlue .bl-hover .title a,
+html.pageYellow .bl-hover .title a {
+    color: #000 !important;
+}
+
+.search-box .search-ses label {
+    color: #000 !important;
+}
+
+.search-box .search-ses label.checked {
+    color: #fff !important;
+}
+
+.cfMainContainer.no-border {
+    border-bottom: none;
+}
+
+.calender_event {
+    margin-bottom: 15px;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.single-event-infor .left-line {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.single-event-infor .left-line>div {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.single-event-infor .left-line>div svg,
+.single-event-infor .left-line>div img {
+    margin-right: 10px;
+}
+
+.single-page .gallery dl.gallery-item img {
+    width: auto;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+.single-page .gallery .wp-caption-text.gallery-caption {
+    text-align: center;
+}
+
+.news-slider .box-image {
+    background-size: cover;
+    background-position: center;
+}
+
+body .menu-wrapper .menu-item>a>span,
+.page-title-text,
+.section-title-text,
+.pagemenu-title,
+footer .footer-content a {
+    text-transform: capitalize;
+}
+
+@media print {
+    .menu-wrapper {
+        position: absolute;
+    }
+    .index-menu,
+    .social-contact {
+        display: none;
+    }
+    #cookie {
+        display: none !important;
+    }
+    /* @page {
+    size: 370mm 427mm;
+    margin: 5mm;
+    }
+    body{
+      width: 1480px;
+    } */
+    body:not(.shownav) .menu-wrapper:before {
+        display: none !important;
+    }
+    body:not(.home) .menu-wrapper {
+        position: absolute !important;
+    }
+    .menu-wrapper {
+        background-color: #0c0b3b;
+    }
+    .menu-footer-sm-wrap {
+        display: none;
+    }
+    body:not(.home) .menu-wrapper {
+        position: absolute;
+    }
+}
+
+@media(min-width:768px) {
+    .single-page .gallery.gallery-columns-2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .single-page .gallery.gallery-columns-2>.gallery-item {
+        padding: 0 10px;
+        max-width: 50%;
+    }
+}
+
+.single-page .wp-caption a:after {
+    display: none !important;
+}
+
+.aligncenter p {
+    text-align: center;
+}
+
+html.pageBlack *:not(li):not(.box-title-step-home):not(.box-img-home-about):not(.box-img-intro):not(.header-main a):not(.about-hospital-wrap .about-hospital-img .box-about-hospital-img):not(.slick-track):not(a.menu-btn):after,
+html.pageBlack *:not(li):not(.box-title-step-home):not(.box-img-home-about):not(.box-img-intro):not(.header-main a):not(.about-hospital-wrap .about-hospital-img .box-about-hospital-img):not(.slick-track)::before,
+html.pageBlue *:not(li):not(.box-title-step-home):not(.box-img-home-about):not(.box-img-intro):not(.header-main a):not(.about-hospital-wrap .about-hospital-img .box-about-hospital-img):not(.slick-track):not(a.menu-btn)::after,
+html.pageBlue *:not(li):not(.box-title-step-home):not(.box-img-home-about):not(.box-img-intro):not(.header-main a):not(.about-hospital-wrap .about-hospital-img .box-about-hospital-img):not(.slick-track)::before,
+html.pageYellow *:not(li):not(.box-title-step-home):not(.box-img-home-about):not(.box-img-intro):not(.header-main a):not(.about-hospital-wrap .about-hospital-img .box-about-hospital-img):not(.slick-track):not(a.menu-btn)::after,
+html.pageYellow *:not(li):not(.box-title-step-home):not(.box-img-home-about):not(.box-img-intro):not(.header-main a):not(.about-hospital-wrap .about-hospital-img .box-about-hospital-img):not(.slick-track)::before {
+    display: none;
+}
+
+html.pageBlack ul.tabs-nav .tab-nav-link,
+html.pageBlue ul.tabs-nav .tab-nav-link,
+html.pageYellow ul.tabs-nav .tab-nav-link,
+html.pageYellow .box-contact-header,
+html.pageBlue .box-contact-header,
+html.pageBlack .box-contact-header{
+    background-color: transparent;
+}
+html.pageLarge .header-main .main-menu .nav>li>a{
+    padding: 0 25px 0 60px;
+}
+html.pageLarge .header-main .main-menu .nav>li>a:before{
+    left: 20px;
+}
+html.pageLarge .header-main .main-menu{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+html.pageYellow .box-list-specialties .svg-img circle.cls-2 {
+    stroke: #000;
+    stroke-width: 1px;
+    fill: #F4E621;
+}
+html.pageYellow .box-list-specialties .svg-img path.cls-1 {
+    stroke: #000;
+    stroke-width: 1px;
+    fill: #000;
+}
+html.pageYellow .box-list-specialties .svg-img rect.cls-1 {
+    stroke: unset;
+    fill: #000;
+}
+html.pageYellow .box-list-specialties a:hover svg .cls-2 {
+    fill: #F4E621;
+}
+
+html.pageBlack .box-list-specialties .svg-img circle.cls-2 {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+html.pageBlack .box-list-specialties .svg-img path.cls-1 {
+    stroke: #000;
+    stroke-width: 1px;
+    fill: #000;
+}
+html.pageBlack .box-list-specialties .svg-img rect.cls-1 {
+    stroke: unset;
+    fill: #000;
+}
+html.pageBlack .box-list-specialties a:hover .svg-img path.cls-1 {
+    stroke: #fff;
+    fill: #fff;
+}
+html.pageBlack .box-list-specialties a:hover svg .cls-2 {
+    fill: #000;
+}
+
+html.pageBlue .box-list-specialties .svg-img circle.cls-2 {
+    fill: #fff;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+html.pageBlue .box-list-specialties .svg-img path.cls-1  {
+    stroke: #0071b4;
+    stroke-width: 1px;
+    fill: #0071b4;
+}
+html.pageBlue .box-list-specialties .svg-img rect.cls-1  {
+    fill: #0071b4;
+    stroke: unset;
+}
+html.pageBlue .box-list-specialties a:hover svg .cls-2 {
+    fill: #0071b4;
+}
+html.pageBlue .box-list-specialties a:hover .svg-img path.cls-1 {
+    stroke: #fff;
+    fill: #fff;
+}
+html .logo .header-logo path.cls-1{
+    fill: #0071b7;
+    stroke: unset;
+}
+html .logo .header-logo path.cls-2{
+    fill: #f46f51;
+    stroke: unset;
+}
+
+html:is(.pageBlue, .pageBlack) .section-news .box-news,
+html:is(.pageBlue, .pageBlack) .logo .header-logo path.cls-1,
+html:is(.pageBlue, .pageBlack) .logo .header-logo path.cls-5,
+html:is(.pageBlue, .pageBlack) .box-logo-menu a path.cls-1,
+html:is(.pageBlue, .pageBlack) .box-logo-menu a path.cls-5{
+    fill: #ffffff;
+    stroke: unset;
+}
+html:is(.pageBlue, .pageBlack) .logo .header-logo path.cls-2,
+html:is(.pageBlue, .pageBlack) .logo .header-logo path.cls-3,
+html:is(.pageBlue, .pageBlack) .logo .header-logo path.cls-4{
+    fill: #fff;
+}
+html:is(.pageYellow) .logo .header-logo path.cls-1,
+html:is(.pageYellow) .logo .header-logo path.cls-5,
+html:is(.pageYellow) .box-logo-menu a path.cls-1,
+html:is(.pageYellow) .box-logo-menu a path.cls-5{
+    fill: #000000;
+    stroke: unset;
+}
+
+html:is(.pageBlue, .pageBlack, .pageYellow) .section-news .box-news:hover,
+html:is(.pageBlue, .pageBlack, .pageYellow) .tab-item .tab-content .tabs-nav li:hover
+{
+    opacity: 0.6;
+}
+
+html:is(.pageBlack) .list-news .box-news .cat-news a{
+    color: #000000!important;
+    border-color: #000000 !important;
+}
+html.pageBlue .tab-item .tab-content .tabs-nav li a.active
+{
+    background-color: #ffffff!important;
+    color: #0071b4!important;
+}
+
+html.pageBlack .tab-item .tab-content .tabs-nav li a.active
+{
+    background-color: #ffffff!important;
+    color: #000000!important;
+}
+
+html.pageYellow .tab-item .tab-content .tabs-nav li a.active
+{
+    background-color: #000000!important;
+    color: #F4E621!important;
+}
+
+html.pageYellow .footer-logo img{
+    filter: brightness(0);
+}
+html:is(.pageBlue, .pageBlack) .section-news .box-news .title-news,
+html:is(.pageBlue, .pageBlack) .box-related-link .box-related-link-text{
+    color: #ffffff!important;
+}
+html:not(.pageBlue, .pageBlack, .pageYellow) .box-btn-fixed {
+    background-color: #ffffff;
+}
+
+html:not(.pageBlue, .pageBlack, .pageYellow) .box-btn-fixed img:not([class]){
+    display: block;
+}
+
+html .box-btn-fixed img{
+    display: none;
+}
+
+html.pageYellow .box-btn-fixed img.img-yellow,
+html.pageBlue .box-btn-fixed img.img-blue,
+html.pageBlack .box-btn-fixed img.img-black{
+    display: block;
+}
+html.pageBlue .btn-go-top .cls-2,
+html.pageBlack .btn-go-top .cls-2 {
+    fill: #fff;
+    stroke: #fff;
+}
+html.pageBlue .btn-go-top circle.cls-1 {
+    fill: #0071b4;
+    stroke: #fff;
+}
+html.pageBlack .btn-go-top circle.cls-1 {
+    fill: #000;
+    stroke: #fff;
+}
+html.pageYellow .btn-go-top .cls-2 {
+    fill: #000;
+    stroke: #000;
+}
+html.pageYellow .btn-go-top circle.cls-1 {
+    fill: #F4E621;
+    stroke: #000;
+}
+html:is(.pageBlue, .pageBlack, .pageYellow) a.link-mega-menu {
+    background-image: none;
+}
+html:is(.pageBlue, .pageBlack, .pageYellow) a.link-mega-menu:before {
+    content: none;
+}
